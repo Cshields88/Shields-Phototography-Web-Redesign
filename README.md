@@ -2,4 +2,4 @@
 
 
 #### Design Mock-Up
-![Design Mockup]('shieldsPhotoWebSite.png')
+![Design Mockup](shieldsPhotoWebSite.png)
