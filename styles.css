@@ -1,0 +1,145 @@
+#header {
+    background: #63666A;
+    border-bottom: #9BBED9 solid;
+    height: 200px;
+}
+
+.footer {
+    background: #63666A;
+    border-top: #9BBED9 solid;
+    height: 100px;
+}
+
+.copy {
+    background: #63666A;
+    color: #9BBED9;
+}
+
+.smIcons {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.pin {
+    width: 35px;
+    height: 35px;
+}
+
+.logo {
+    width: 300px;
+    height: 190px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+/*Nav Links*/
+
+#nav {
+    font-family: 'Great Vibes', cursive;
+    padding-top: 70px;
+    padding-right: 30px;
+    font-size: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+
+/*navigation*/
+
+#nav a {
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+#nav a:link {
+    color: #9BBED9;
+}
+
+#nav a:visited {
+    color: #9BBED9;
+}
+
+#nav a:hover {
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+#nav a:active {
+    color: #9BBED9;
+}
+
+
+/*image links*/
+
+#content a {
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+#content a:link {
+    color: #9BBED9;
+}
+
+#content a:visited {
+    color: #9BBED9;
+}
+
+#content a:hover {
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+#content a:active {
+    color: #9BBED9;
+}
+
+.caption {
+    font-family: 'Great Vibes', cursive;
+    font-size: 65px;
+    color: #9BBED9;
+    padding-bottom: 275px;
+    position: sticky;
+}
+
+.main {
+    width: 500px;
+    height: 725px;
+}
+
+.mainFam {
+    width: 470px;
+    height: 725px;
+}
+
+.mainSen {
+    width: 500px;
+    height: 725px;
+}
+
+#content {
+    background: #63666A;
+    column-width: 100%;
+}
+
+
+/*contact*/
+
+.contact {
+    padding: 20px;
+    padding-left: 100px;
+    background: #63666A;
+}
+
+.contactLabel {
+    color: #9BBED9;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
