@@ -1,25 +1,14 @@
 <?php
 define("TITLE", "Home | Shields Photography");
 
-include('includes/header.php');
+include('Includes/header.php');
 ?>
     <!--Body Content -->
-    <div class="row" id="header">
-        <div class="col-6 pull-left img-responsive">
-            <a href="index.html"><img class="logo" src="Assets/logo.png" alt="Logo"></a>
-        </div>
-        <div class="col-6 pull-right" id="nav">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="galleries.php">Galleries</a></li>
-            <li><a href="investment.php">Investment</a></li>
-            <li><a href="contact.php">Contact</a></li>
-
-        </div>
-    </div>
 
     <div class="row" id="content">
+        <hr>
         <!--Seniors-->
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-xs-12">
             <div class="carousel">
                 <div class="active item">
                     <a href="seniors.php"><img class="mainSen main" src="Assets/senbw.jpg" alt="Seniors"></a>
@@ -33,7 +22,7 @@ include('includes/header.php');
         </div>
 
         <!--Wedding-->
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-xs-12">
             <div class="carousel">
                 <div class="active item">
                     <a href="weddings.php"><img class="main wed" src="Assets/wedbw.jpg" alt="Weddings"></a>
@@ -45,7 +34,7 @@ include('includes/header.php');
 
         </div>
         <!--Portraits-->
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-xs-12">
             <div class="carousel">
                 <div class="active item">
                     <a href="portraits.php"><img class="main portrait" src="Assets/cplbw.jpg" alt="Portraits"></a>
@@ -57,7 +46,7 @@ include('includes/header.php');
 
         </div>
         <!--Family-->
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-xs-12">
             <div class="carousel">
                 <div class="active item">
                     <a href="family.php"><img class="mainFam fam" src="Assets/shawnabw.jpg" alt="Family"></a>
@@ -69,6 +58,7 @@ include('includes/header.php');
 
         </div>
     </div>
+
 
     <?php
 include('includes/footer.php');

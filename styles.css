@@ -20,6 +20,7 @@
     height: 35px;
     padding: 5px;
     margin-right: 10px;
+    align-content: center;
 }
 
 .pin {
@@ -40,8 +41,8 @@
 #nav {
     font-family: 'Great Vibes', cursive;
     padding-top: 70px;
-    padding-right: 30px;
-    font-size: 50px;
+    padding-right: 50px;
+    font-size: 40px;
 }
 
 li {
@@ -109,37 +110,128 @@ li {
 }
 
 .main {
-    width: 500px;
-    height: 725px;
+    width: 350px;
+    height: 650px;
+    padding-bottom: 20px;
 }
 
 .mainFam {
-    width: 470px;
-    height: 725px;
+    width: 300px;
+    height: 650px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .mainSen {
-    width: 500px;
-    height: 725px;
+    width: 400px;
+    height: 650px;
+    padding-right: 50px;
 }
 
 #content {
+    /*
     background: #63666A;
     column-width: 100%;
+*/
 }
 
 
 /*contact*/
 
 .contact {
-    padding: 20px;
-    padding-left: 100px;
+    /*    padding: 20px;*/
+    /*    padding-left: 100px;*/
     background: #63666A;
 }
 
 .contactLabel {
     color: #9BBED9;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: 'Oswald', sans-serif;
+}
+
+
+/*Seniors*/
+
+.seniors {
+    font-family: 'Great Vibes', cursive;
+    padding-top: 75px;
+    padding-right: 30px;
+    font-size: 60px;
+    color: #9BBED9;
+}
+
+.seniorImg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.seniors a {
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+.seniors a:link {
+    color: #9BBED9;
+}
+
+.seniors a:visited {
+    color: #9BBED9;
+}
+
+.seniors a:hover {
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+.seniors a:active {
+    color: #9BBED9;
+}
+
+img.seniorImg {
+    padding-left: 375px;
+}
+
+.hr {
+    color: #9BBED9;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Gallery Sidebar*/
+
+.sidebarMenu {
+    font-size: 24px;
+    text-align: left;
+    padding-top: 10px;
+    color: #9BBED9;
+    text-decoration: none;
+}
+
+
+/*Investment*/
+
+ul .invest {
+    list-style: none;
+    color: red;
+}
+
+
+/*Galleries*/
+
+.galleries-header {
+    font-family: 'Oswald', sans-serif;
+    color: #8A8F94;
+    font-size: 48px;
+}
+
+.header-date {
+    font-family: 'Oswald', sans-serif;
+    color: #9BBED9;
+    font-size: 24px;
+    padding-left: 10px;
 }
