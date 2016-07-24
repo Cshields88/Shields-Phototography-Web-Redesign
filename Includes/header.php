@@ -14,24 +14,43 @@ $name = '&copy; Shields Photography ';
             <?php echo TITLE; ?>
         </title>
         <link rel="stylesheet" href="styles.css">
+
         <link rel="stylesheet" href="lightbox.css">
+        <link rel="stylesheet" href="../font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     </head>
 
     <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid" id="header">
+                <div class="navbar-header navbar-left">
+                    <a href="#"><img class="img-responsive col-xs-12" src="Assets/logomd.png" alt=""></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-        <div class="container">
-            <nav class="navbar" role="navigation">
-                <div class="row" id="header">
-                    <div class="col-xs-12 col-lg-6 pull-left img-responsive">
-                        <a href="index.php"><img class="logo img-responsive" src="Assets/logo.png" alt="Logo"></a>
-                    </div>
-                    <div class="col-xs-12 col-lg-6 pull-right" id="nav">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="galleries.php">Galleries</a></li>
-                        <li><a href="investment.php">Investment</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                    </div>
-            </nav>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="nav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galleries<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="seniors.php">Seniors</a></li>
+                                <li><a href="weddings.php">Weddings</a></li>
+                                <li><a href="portraits.php">Portraits</a></li>
+                                <li><a href="family.php">Family</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Investment</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
